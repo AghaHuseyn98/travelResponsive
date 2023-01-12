@@ -1,0 +1,147 @@
+@media only screen and (max-width:992px){
+     /* page no1 */
+ .container{
+    max-width: 700px;
+ }
+ header h1{
+    font-size: 41px;
+ }
+
+ /* page no2 */
+ #america article img {
+    width: 160px;
+    height: 160px;
+}
+#america article div{
+    width: 160px;
+    padding-bottom: 20px;
+}
+#america article div p{
+    width: 124px;
+    font-size: 11px;
+}
+#america article div h1{
+    font-size: 12px;
+    /* padding left verirem alinmir */
+    /* margin: 0 0 0 18px; */
+    
+}
+ /* page no3 */
+ #contact h1{
+    text-align: center;
+    font-weight: bold;
+    color: rgb(87, 62, 109);
+ }
+
+ #contact .visa div {
+    width: 200px;
+}
+}
+
+@media only screen and (max-width:768px){
+    .container{
+        max-width: 500px;
+     }
+     header h1{
+        font-size: 31px;
+     }
+     #america article img {
+        width: 240px;
+        height: 160px;
+    }
+    #america article div{
+        width: 240px;
+        padding-bottom: 20px;
+    }
+    #america {
+       flex-wrap: wrap;
+       
+    }
+    #destination nav h1{
+        font-size: 12px;
+        /* padding left verirem alinmir */
+        /* margin: 0 0 0 18px; */  
+        text-align: center; 
+        color: indigo;
+        font-weight: bold;
+    }
+    #destination nav h2{
+        text-align: center;
+        color: indigo;
+    }
+    #america article div p{
+        width: 204px;
+        font-size: 14px;
+    }
+    #america article {
+        margin-bottom: 10px;
+     }
+     #contact .visa div {
+        width: 150px;
+    }
+    #contact .visa div h1{
+        text-align: center;
+    }
+    #contact .visa div p{
+        text-align: center;
+    }
+
+}
+
+@media only screen and (max-width:576px){
+    .container{
+        max-width: 300px;
+     }
+     header h1{
+        font-size: 21px;
+     }
+     header form input {
+        width: 200px;
+     }
+
+     #contact h1{
+        font-size: 20px;
+        text-align: center;
+        font-weight: bold;
+        color: rgb(87, 62, 109);
+        margin-top: -20px;
+     }
+     #contact .visa div {
+        width: 220px;
+    }
+    #contact .visa div h1{
+        font-size: 15px;
+        text-align: center;
+    }
+    #contact .visa div p{
+        font-size: 18px;
+        text-align: center;
+    }
+
+    #contact .visa {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+}
+#contact form input {
+    width: 250px;
+    height: 30px;
+   
+}
+#contact form button {
+    width: 100px;
+    height: 30px;  
+    font-size: 16px;   
+}
+/* footer */
+footer nav a {
+    font-size: 12px;
+    color: #323232;
+    font-weight: 400;
+
+}
+footer nav{
+    justify-content: center;
+
+}
+}
